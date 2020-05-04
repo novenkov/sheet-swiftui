@@ -13,6 +13,7 @@
 		B9D5F2DC246086D90010E0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D5F2DB246086D90010E0FB /* Assets.xcassets */; };
 		B9D5F2DF246086D90010E0FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D5F2DE246086D90010E0FB /* Preview Assets.xcassets */; };
 		B9D5F2E2246086D90010E0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D5F2E0246086D90010E0FB /* LaunchScreen.storyboard */; };
+		B9D5F2EC246089930010E0FB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D5F2EB246089930010E0FB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B9D5F2DE246086D90010E0FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9D5F2E1246086D90010E0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9D5F2E3246086D90010E0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9D5F2EB246089930010E0FB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B9D5F2D5246086D70010E0FB /* AppDelegate.swift */,
 				B9D5F2D7246086D70010E0FB /* SceneDelegate.swift */,
 				B9D5F2D9246086D70010E0FB /* ContentView.swift */,
+				B9D5F2EB246089930010E0FB /* DetailView.swift */,
 				B9D5F2DB246086D90010E0FB /* Assets.xcassets */,
 				B9D5F2E0246086D90010E0FB /* LaunchScreen.storyboard */,
 				B9D5F2E3246086D90010E0FB /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9D5F2D6246086D70010E0FB /* AppDelegate.swift in Sources */,
+				B9D5F2EC246089930010E0FB /* DetailView.swift in Sources */,
 				B9D5F2D8246086D70010E0FB /* SceneDelegate.swift in Sources */,
 				B9D5F2DA246086D70010E0FB /* ContentView.swift in Sources */,
 			);
