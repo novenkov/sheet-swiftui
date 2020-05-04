@@ -17,7 +17,7 @@ struct ContentView: View {
         }) {
             Text("Show Detail")
         }.sheet(isPresented: $showingDetail) {
-            DetailView()
+            DetailView(showingDetail: self.$showingDetail)
         }
     }
 }
