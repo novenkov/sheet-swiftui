@@ -12,8 +12,10 @@ struct DetailView: View {
     @Binding var showingDetail: Bool
     
     var body: some View {
-        Button(action: { self.showingDetail = false }) {
-            Text("Close")
+        NavigationView {
+            Text("Welcome")
+            .navigationBarTitle("New client", displayMode: .inline)
+            .navigationBarItems(leading: Button("Cancel") { self.showingDetail = false }, trailing: Button("Done") { self.showingDetail = false } )
         }
     }
 }

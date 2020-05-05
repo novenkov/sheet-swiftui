@@ -12,10 +12,11 @@ struct ContentView: View {
     @State var showingDetail = false
 
     var body: some View {
+        
         Button(action: {
             self.showingDetail.toggle()
         }) {
-            Text("Show Detail")
+            Text("Add client")
         }.sheet(isPresented: $showingDetail) {
             DetailView(showingDetail: self.$showingDetail)
         }
